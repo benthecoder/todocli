@@ -17,7 +17,7 @@ This is a todo app in the CLI built with Python.
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/benthecoder/todocli.git
 ```
 
 Go to the project directory
