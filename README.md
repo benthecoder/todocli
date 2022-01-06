@@ -93,5 +93,5 @@ The available categories with colors are in `COLORS` dictionary in `todocli.py`.
 
 ## Acknowledgements
 
-- [Python Engineer tutorial on this TODO app](hthttps://youtu.be/ynd67UwG_cI)
+- [Python Engineer tutorial on this TODO app](https://youtu.be/ynd67UwG_cI)
 - This README file was created with [readme.so](https://readme.so/)
