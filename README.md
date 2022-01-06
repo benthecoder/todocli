@@ -61,33 +61,17 @@ Commands:
 
 ### Adding a tasks
 
-```bash
-todo add "learn rust" "learn"
-```
-
 ![add](assets/add.png)
 
 ### Updating a tasks
-
-```bash
-todo update 1 "learn go" "learn"
-```
 
 ![update](assets/update.png)
 
 ### Completing a tasks
 
-```bash
-todo complete 1
-```
-
 ![complete](assets/complete.png)
 
 ### Deleting a tasks
-
-```bash
-todo delete 1
-```
 
 ![delete](assets/delete.png)
 
@@ -110,3 +94,4 @@ The available categories with colors are in `COLORS` dictionary in `todocli.py`.
 ## Acknowledgements
 
 - [Python Engineer tutorial on this TODO app](hthttps://youtu.be/ynd67UwG_cI)
+- This README file was created with [readme.so](https://readme.so/)
