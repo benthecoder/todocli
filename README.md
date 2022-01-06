@@ -12,6 +12,34 @@ This is a todo app in the CLI built with Python.
 
 ![example image of table](assets/app.png)
 
+## Installation
+
+First, install [poetry](https://python-poetry.org/)
+
+```bash
+  curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
+```
+
+Check it's installed
+
+```bash
+  poetry --version
+```
+
+Poetry uses the currently activated Python version to create a virtual environment for the project
+
+To check your environment information, use the command below
+
+```bash
+  poetry env info
+```
+
+If your python version is not compatible with the `python` requirement of the project, Poetry will find one that is and use it.
+
+If it's unable to find a compatible version, you might need to install one. You can use [pyenv](https://github.com/pyenv/pyenv) to do so.
+
+More on environments in the [docs](https://python-poetry.org/docs/managing-environments/#switching-between-environments)
+
 ## Run Locally
 
 Clone the project
@@ -26,7 +54,7 @@ Go to the project directory
   cd todocli
 ```
 
-Install dependencies with [poetry](https://python-poetry.org/)
+Install dependencies with poetry
 
 ```bash
   poetry install
