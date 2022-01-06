@@ -63,7 +63,7 @@ Install dependencies with poetry
 Run the `todocli.py` file with specific commands
 
 ```bash
-  poetry run python todocli.py --commands
+  poetry run python todocli.py <commands>
 ```
 
 You can alias the command like below to shorten things down
@@ -74,7 +74,7 @@ You can alias the command like below to shorten things down
 
 ## Usage/Examples
 
-This is the list of commands available
+This is the list of commands available through the `--help` command
 
 ```text
 Commands:
